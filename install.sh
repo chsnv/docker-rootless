@@ -14,7 +14,7 @@ sudo apt update -y
 sudo apt-cache policy docker-ce
 
 # Install docker with compose plugin:
-sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose
 
 # Setting Rootless mode:
 sudo usermod -aG docker $(whoami)
